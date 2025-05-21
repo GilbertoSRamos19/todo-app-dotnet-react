@@ -1,0 +1,81 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,visualstudio,dotnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,visualstudio,dotnetcore
+
+### DotNetCore ###
+## Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Aa]rm64/
+[Aa]rm/
+
+## Runtime files
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.aps
+*.bak
+*.obj
+*.ilk
+*.log
+*.sbr
+*.pch
+*.ipch
+*.ncb
+*.opendb
+*.vcproj.filters
+*.csproj.user
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.build-log
+*.wrn
+*.vsp
+*.pfx
+*.snk
+*.pub
+*.testsettings
+*.trx
+*.webtest
+*.cache
+*.csv
+*.mdf
+*.ldf
+*.sdf
+*.vso
+*.bsc
+*.pidb
+*.hprof
+*.nupkg
+*.props
+*.targets
+*.userprofile
+*.settings
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.patch
+*.diff
+
+## Project files
+*.csproj
+*.vbproj
+*.fsproj
+*.sqlproj
+*.vcxproj
+*.vcproj
+
+## Visual Studio Code cache
+.vscode/
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## macOS
+.DS_Store
