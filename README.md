@@ -101,3 +101,29 @@ Certifique-se de ter as seguintes ferramentas instaladas:
     O aplicativo será aberto automaticamente no seu navegador em `http://localhost:3000`.
 
 ## 📂 Estrutura do Projeto
+
+todo-app-dotnet-react/
+├── TodoApp/
+│   └── TodoApp.Api/             # Backend ASP.NET Core Web API
+│       ├── Controllers/         # Lógica da API (TodoItemsController.cs)
+│       ├── Data/                # Contexto do banco de dados (AppDbContext.cs)
+│       ├── Models/              # Modelos de dados (TodoItem.cs)
+│       ├── Migrations/          # Migrações do Entity Framework Core
+│       ├── Properties/          # launchSettings.json (configurações de inicialização)
+│       └── ... outros arquivos .NET
+└── todo-app-frontend/         # Frontend React
+├── public/                  # Arquivos estáticos
+├── src/
+│   ├── components/          # Componentes reutilizáveis (TodoForm, TodoItem)
+│   ├── pages/               # Páginas da aplicação (TodoListPage.js)
+│   ├── services/            # Lógica de comunicação com a API (todoService.js)
+│   ├── utils/               # Utilitários (LocalStorage.js)
+│   └── App.js               # Componente principal
+└── ... outros arquivos React
+
+---
+
+Sinta-se à vontade para ajustar qualquer parte deste `README` para melhor se adequar ao seu estilo ou a detalhes específicos que você queira destacar!
+
+
+
