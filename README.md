@@ -1,4 +1,4 @@
-# 📝 Todo App Fullstack (.NET Web API & React)
+# 📝CRUD Todo List App Fullstack (.NET Web API & React)
 
 Este é um aplicativo completo de lista de tarefas desenvolvido com um backend em ASP.NET Core Web API e um frontend em React. Ele permite que os usuários criem, visualizem, editem e excluam tarefas, demonstrando uma integração funcional entre as duas tecnologias.
 
